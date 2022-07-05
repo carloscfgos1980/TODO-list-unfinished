@@ -101,4 +101,13 @@ body #wrapper #new-task button {
   border-radius: 5px;
   cursor: pointer;
 }
+
+body #wrapper #new-task button::before {
+  display: inline-block;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font: var(--fa-font-solid);
+  content: "\f1f8";
+  color: #fff;
+}
 /*# sourceMappingURL=style.css.map */
